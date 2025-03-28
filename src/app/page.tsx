@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import TestimonialCards from "@/components/TestimonialCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { main } from "motion/react-client";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
     <HeroSection />
     <FeaturedCourses />
     <WhyChooseUs />
+    <TestimonialCards/>
     </main>
   );
 }
