@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import { main } from "motion/react-client";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
     <h1 className=" text-2xl text-center">Hello  world!</h1>
     <HeroSection />
     <FeaturedCourses />
+    <WhyChooseUs />
     </main>
   );
 }
